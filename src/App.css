@@ -4,8 +4,11 @@
 
 .App-logo {
   height: 40vmin;
+  width: 40vmin; /* Ensures the width is the same as height */
+  border-radius: 50%; /* Makes the logo circular */
   pointer-events: none;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
